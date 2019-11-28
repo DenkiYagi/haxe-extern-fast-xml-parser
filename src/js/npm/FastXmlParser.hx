@@ -2,7 +2,11 @@ package js.npm;
 
 import haxe.extern.EitherType;
 
+#if nodejs
 @:jsRequire("fast-xml-parser")
+#else
+@:native("parser")
+#end
 extern class FastXmlParser {
     @:overload(function(xmlData:String, ?options:X2JOptions, ?validationOptions:Bool):Dynamic {})
     static function parse(xmlData:String, ?options:X2JOptions, ?validationOptions:ValidationOptions):Dynamic;
