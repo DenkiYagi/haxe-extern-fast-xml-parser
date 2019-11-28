@@ -1,0 +1,12 @@
+{
+    "name": "hxnodejs-fast-xml-parser",
+    "url" : "https://github.com/DenkiYagi/haxe-extern-fast-xml-parser",
+    "license": "Apache",
+    "tags": ["javascript", "nodejs", "xml", "fast-xml-parser"],
+    "description": "Haxe extern definitions for fast-xml-parser",
+    "version": "3.15.0",
+    "classPath": "src/",
+    "releasenote": "",
+    "contributors": ["DenkiYagi"],
+    "dependencies": {}
+}

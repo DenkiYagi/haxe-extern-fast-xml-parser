@@ -1,0 +1,3 @@
+-cp src
+-js dummy.js
+--no-output
