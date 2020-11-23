@@ -3,7 +3,7 @@
     "url" : "https://github.com/DenkiYagi/haxe-extern-fast-xml-parser",
     "license": "Apache",
     "tags": ["javascript", "nodejs", "xml", "fast-xml-parser"],
-    "description": "Haxe extern definitions for fast-xml-parser",
+    "description": "Haxe/js externs for fast-xml-parser",
     "version": "3.0.0",
     "classPath": "src/",
     "releasenote": "",
